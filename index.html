@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Toque - Desarrollo Web</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="En Al Toque creamos tu página web profesional de forma rápida y eficiente. Soluciones de diseño y desarrollo web en Argentina para pymes y emprendedores. ¡Cotizá ahora!">
+    
+    <meta name="keywords" content="diseño web mendoza, diseño web argentina, desarrollo web mendoza, desarrollo web argentina, páginas web para pymes, crear página web argentina, diseño web rápido, al toque web, desarrollo web profesional, páginas web profesionales, diseño web responsive, diseño web moderno, soluciones digitales mendoza, marketing digital mendoza, branding mendoza, aplicaciones móviles mendoza, páginas web económicas, páginas web personalizadas, diseño web para emprendedores, servicios digitales mendoza, diseño web a medida, páginas web para negocios, diseño web corporativo, diseño web para profesionales, páginas web para freelancers, diseño web para startups, desarrollo web a medida, soluciones digitales para pymes">
+
+    <meta name="author" content="Al Toque">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Al Toque - Desarrollo Web">
+    <meta property="og:description" content="Soluciones tecnológicas y desarrollo de software a medida para tu empresa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.toque.com/">
+    <meta property="og:image" content="https://www.toque.com/og-image.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Al Toque - Desarrollo Web">
+    <meta name="twitter:description" content="En Al Toque creamos tu página web profesional de forma rápida y eficiente. Soluciones de diseño y desarrollo web en Argentina para pymes y emprendedores. ¡Cotizá ahora!">
+    <meta name="twitter:image" content="https://www.toque.com/og-image.jpg">
+    <link rel="canonical" href="https://www.toque.com/">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Barra de Navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="./img/toque_blanco.png" alt="Logo fantástico" class="logo-image">
+                </div>
+                
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#elegirnos">Porque elegirnos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#pricing">Planes</a></li>
+                </ul>
+                
+                <!-- Botones del header -->
+                <div class="nav-buttons">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="btn-primary">Contáctanos</button>
+                </div>
+                
+                <!-- Menú hamburguesa para móvil -->
+                <button class="hamburger" id="hamburgerMenu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Menú móvil superpuesto -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">&times;</button>
+        <ul class="mobile-nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#elegirnos">Porque elegirnos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#pricing">Planes</a></li>
+        </ul>
+        <div class="mobile-nav-buttons">
+            <button class="theme-toggle" id="mobileThemeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="btn-primary">Contáctanos</button>
+        </div>
+    </div>
+
+    <!-- Sección Hero / Banner Principal -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-subtitle">Desarrollo Web Profesional</h2>
+                    <h1 class="hero-title">La presencia online que tu negocio necesita.
+                        <br>AL TOQUE</h1>
+                    <p class="hero-description">Olvídate de las complicaciones. Hacemos que tu marca se destaque en internet con una web moderna.
+                    <br> Simple, eficiente, al toque.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Contáctanos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-bg-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Clientes -->
+    <!--<section class="clients">
+        <div class="container">
+            <h2 class="section-title">Nuestro clientes</h2>
+            <div class="clients-logos">
+                <div class="client-logo">
+                    <i class="fas fa-globe"></i>
+                    <span>logo ipsum</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Logoipsum</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-circle"></i>
+                    <span>Logoipsum</span>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Sección "Welcome To Our Custom Software Development Service" -->
+    <section id="nosotros" class="welcome-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-left">
+                    <div class="image-container">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop" alt="Desarrollador trabajando">
+                        </div>
+                        <div class="overlay-images">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&h=150&fit=crop" alt="Persona escribiendo código">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200&h=150&fit=crop" alt="Desarrollo de software">
+                        </div>
+                        <div class="stats-badge">
+                            <i class="fas fa-gem"></i>
+                            <span>1,200+ Proyectos terminados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h3 class="section-subtitle">SOBRE NOSOTROS</h3>
+                    <h2 class="section-title">Transformamos tu Visión en una Realidad Digital</h2>
+                    <p class="section-description">Combinamos la creatividad y la estrategia para construir soluciones digitales que no solo se ven increíbles, sino que están diseñadas para ayudarte a alcanzar tus objetivos.</p>
+                    <div class="highlighted-text">
+                        <p>"Diseñamos el futuro. Juntos."</p>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Ofrecemos revisión ilimitada</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="user-avatars">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=30&h=30&fit=crop&crop=face" alt="Usuario">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=30&h=30&fit=crop&crop=face" alt="Usuario">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=30&h=30&fit=crop&crop=face" alt="Usuario">
+                                <span class="plus">+</span>
+                            </div>
+                            <span>1,235+ Cliente satisfechos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>
+
+    <!-- Sección "We Specialize In Providing Tailor-Made Software Solutions" -->
+    <section id="elegirnos" class="specialize-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-left">
+                    <h3 class="section-subtitle">PORQUE ELEGIRNOS</h3>
+                    <h2 class="section-title">Tu visión, nuestro compromiso</h2>
+                    <p class="section-description">Con un equipo de expertos dedicado y soporte continuo, te mantenemos informado en cada etapa del proyecto.</p>
+                    <!-- Pestañas -->
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="exclusividad">Exclusividad</button>
+                        <button class="tab-button" data-tab="excelencia">Excelencia</button>
+                        <button class="tab-button" data-tab="impacto">Impacto</button>
+                        <button class="tab-button" data-tab="respaldo">Respaldo</button>
+                        <button class="tab-button" data-tab="transparencia">Transparencia</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="exclusividad">
+                            <p>Creamos proyectos únicos, adaptados a las necesidades y metas de tu negocio.</p>
+                        </div>
+                        <div class="tab-panel" id="excelencia" style="display:none;">
+                            <p>Equipo de expertos comprometido y dedicado.</p>
+                        </div>
+                        <div class="tab-panel" id="impacto" style="display:none;">
+                            <p>Desarrollamos diseños visualmente impactantes que captan la atención de tu audiencia.</p>
+                        </div>
+                        <div class="tab-panel" id="respaldo" style="display:none;">
+                            <p>Soporte y mantenimiento continuo.</p>
+                        </div>
+                        <div class="tab-panel" id="transparencia" style="display:none;">
+                            <p>Te mantendremos informado en cada etapa del proyecto para que sepas exactamente lo que está pasando y veas el progreso de tu inversión.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-items">
+                        <!--<div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Años de experiencia</h4>
+                                <p>Llevamos años transformando la forma en que los negocios se presentan en línea. Nuestra meta es simple: tomar tu visión, ese sueño o idea, y convertirla en una realidad digital impactante, con el compromiso total de nuestro equipo. Sabemos que tu tiempo es valioso, por eso te ofrecemos una solución ágil para que obtengas, "al toque", la presencia online que tu negocio necesita para triunfar.</p>
+                            </div>
+                        </div>-->
+                        <br>
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>El equipo mejor certificado. Tu garantía de éxito</h4>
+                                <p>Trabaja con el equipo mejor certificado para obtener la garantía de que tus proyectos se entregarán con un estándar de calidad insuperable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=400&fit=crop" alt="Desarrollador trabajando con código">
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>
+
+    <!-- Sección "Discover Our Best Service" -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <h3 class="section-subtitle">NUESTROS SERVICIOS</h3>
+            <h2 class="section-title">Soluciones Digitales</h2>
+            <p class="section-description">Ofrecemos una gama completa de servicios de diseño y desarrollo para llevar tu proyecto al siguiente nivel.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-globe" style="color: #fcfcfc;"></i>
+                    <h3>Dominio</h3>
+                    <p>Registramos tu dominio o subimos tu página web al que ya tienes, de forma <b>rápida y segura</b> para que tu negocio esté en línea <strong>AL TOQUE</strong>.</p>
+                </div>
+                <div class="service-card featured">
+                    <i class="fa-solid fa-cloud" style="color: #fcfcfc;"></i>
+                    <h3>Hosting</h3>
+                    <p>Compramos y administramos el alojamiento de tu web para asegurar que tu página esté siempre <b>disponible, rápida y segura</b>.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-code" style="color: #fcfcfc;"></i>
+                    <h3>Desarrollo web</h3>
+                    <p>Diseñamos y desarrollamos páginas web <b>adaptables a cualquier dispositivo</b>, mejorando la imagen y presencia de tu marca.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-wrench" style="color: #fcfcfc;"></i>
+                    <h3>Mantenimiento</h3>
+                    <p>Nos encargamos del <b>mantenimiento mensual</b> de tu página web para que siempre esté <b>actualizada y funcionando</b> a la perfección, sin que tengas que preocuparte por nada.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-chart-line" style="color: #fcfcfc;"></i>
+                    <h3>SEO</h3>
+                    <p>Investigamos y aplicamos las <b>palabras clave</b> más efectivas para posicionar tu marca en los primeros resultados de búsqueda de Google y otros buscadores.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-cart-shopping" style="color: #fcfcfc;"></i>
+                    <h3>E-commerce</h3>
+                    <p>Creamos tu tienda en línea con un diseño optimizado para <b>maximizar tus ventas y conversiones</b>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>
+
+    <!-- Sección "We Have Expertise To Build Customization Software From Idea" -->
+    <section class="expertise-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-left">
+                    <h3 class="section-subtitle">CONSTRUIMOS TU IDEA</h3>
+                    <h2 class="section-title">Tu visión, nuestra experiencia</h2>
+                    <p class="section-description">Te acompañamos en el proceso de dar vida a tus ideas. Juntos, diseñamos y construimos el software que necesitas, uniendo tu visión con nuestra experiencia para crear soluciones digitales que realmente marquen la diferencia.</p>
+                    <button class="btn-primary">Contáctanos</button>
+                </div>
+                <div class="content-right">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="Equipo trabajando en software">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "We Have The Skills And Expertise To Deliver High-Quality Custom Software" -->
+    <!--
+    <section class="skills-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-left">
+                    <div class="images-grid">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=200&fit=crop" alt="Desarrollador trabajando en pantalla táctil">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=200&fit=crop" alt="Equipo colaborando">
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h3 class="section-subtitle">EXPERT SKILL WE HAVE</h3>
+                    <h2 class="section-title">We Have The Skills And Expertise To Deliver High-Quality Custom Software</h2>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    
+                    <div class="progress-bars">
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Desktop Software</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Web Based Software</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary">Get a quote</button>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>-->
+
+    <!-- Sección "We Work Closely With You To Develop A Customized Solution" -->
+    <section class="work-closely-section">
+        <div class="container">
+            <div class="work-closely-grid">
+                <!-- Columna izquierda: Texto principal -->
+                <div class="work-text-content">
+                    <h3 class="section-subtitle">CREAMOS TU PRESENCIA</h3>
+                    <h2 class="section-title">Convertimos tus Ideas en la Web que Necesitas</h2>
+                </div>
+                
+                <!-- Columna derecha: Imagen del desarrollador -->
+                <div class="work-developer-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" alt="Desarrollador experimentado trabajando">
+                </div>
+                
+                <!-- Video thumbnail (abajo izquierda) -->
+                <div class="work-video-container">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop" alt="Video thumbnail">
+                </div>
+                
+                <!-- Caja de características (centro) -->
+                <div class="work-features-box">
+                    <p class="features-quote">No solo construimos páginas web, construimos confianza. Nos dedicamos a hacer que tu visión se convierta en una realidad digital, con la tranquilidad que ofrece un soporte constante y el respaldo de un equipo experto.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Creamos proyectos únicos, adaptados a las necesidades y metas de tu negocio.</li>
+                        <li><i class="fas fa-check"></i> Equipo de expertos comprometido y dedicado.</li>
+                        <li><i class="fas fa-check"></i> Diseños de impacto.</li>
+                        <li><i class="fas fa-check"></i> Soporte y mantenimiento continuo.</li>
+                        <li><i class="fas fa-check"></i> Te mantendremos informado en cada etapa del proyecto para que sepas exactamente lo que está pasando y veas el progreso de tu inversión.</li>
+                    </ul>
+                </div>
+                
+                <!-- Texto del desarrollador experimentado (abajo derecha) -->
+                <div class="work-experienced-content">
+                    <div class="experienced-header">
+                        <div class="blue-line"></div>
+                        <h3>Un aliado en tu proyecto</h3>
+                    </div>
+                    <p class="experienced-text">Creemos en la colaboración. Trabajamos de la mano contigo en cada etapa del proyecto para entender tus necesidades y desarrollar la página web o tienda online que tu negocio se merece.</p>
+                    <p class="experienced-text">No solo somos tus desarrolladores, somos tus socios. Nos involucramos de cerca en tu visión para crear una solución digital personalizada que cumpla con todos tus objetivos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>
+
+    <!-- Sección de Planes de Precios -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">ELIJE EL PLAN QUE MEJOR SE ADAPTE A TI</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card" id="starter">
+                    <h3>Starter</h3>
+                    <!--<div class="price">$15 / Hours</div>-->
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Desarrollo web</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento con costo mensual</li>
+                    </ul>
+                    <button class="btn-outline">Contratar</button>
+                </div>
+                <div class="pricing-card featured" id="pro">
+                    <h3>Pro</h3>
+                    <!--<div class="price">$35 / Hours</div>-->
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Dominio</li>
+                        <li><i class="fas fa-check"></i> Hosting</li>
+                        <li><i class="fas fa-check"></i> Desarrollo web</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento</li>
+                        <li><i class="fas fa-check"></i> SEO</li>
+                    </ul>
+                    <button class="btn-primary">Contratar</button>
+                </div>
+                <div class="pricing-card" id="estarter">
+                    <h3>E-COMMERCE - Starter</h3>
+                    <!--<div class="price">$69 / Hours</div>-->
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Dominio</li>
+                        <li><i class="fas fa-check"></i> Hosting</li>
+                        <li><i class="fas fa-check"></i> E-COMMERCE</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento de pago mensual</li>
+                        <li><i class="fas fa-check"></i> SEO</li>
+                        <li><i class="fas fa-check"></i> Plataforma de pago</li>
+                        <li><i class="fas fa-check"></i> Envíos</li>
+                    </ul>
+                    <button class="btn-outline">Contratar</button>
+                </div>
+                <div class="pricing-card" id="epro">
+                    <h3>E-COMMERCE - PRO</h3>
+                    <!--<div class="price">$69 / Hours</div>-->
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Dominio</li>
+                        <li><i class="fas fa-check"></i> Hosting</li>
+                        <li><i class="fas fa-check"></i> E-COMMERCE</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento</li>
+                        <li><i class="fas fa-check"></i> SEO</li>
+                        <li><i class="fas fa-check"></i> Plataforma de gestion</li>
+                        <li><i class="fas fa-check"></i> Plataforma de pago</li>
+                        <li><i class="fas fa-check"></i> Envíos</li>
+                    </ul>
+                    <button class="btn-outline">Contratar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "We Provide Dedicated Support" -->
+    <section class="support-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-left">
+                    <h3 class="section-subtitle">TU TRANQUILIDAD</h3>
+                    <h2 class="section-title">Soporte y acompañamiento en cada etapa de tu proyecto</h2>
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=300&h=200&fit=crop" alt="Equipo de soporte">
+                    
+                    <div class="support-features">
+                        <div class="support-feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Asistencia continua</h4>
+                                <p>Te ofrecemos asistencia en todo momento para resolver cualquier duda o problema.</p>
+                            </div>
+                        </div>
+                        <div class="support-feature">
+                            <i class="fas fa-sync-alt"></i>
+                            <div>
+                                <h4>Tu satisfacción garantizada</h4>
+                                <p>Hacemos todos los ajustes necesarios para que el resultado final supere tus expectativas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="video-container">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop" alt="Video de soporte">
+                        <button class="play-button">
+                            <i class="fas fa-play"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <!--<section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">We Provide Our Clients With The Most Innovative And Effective</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop&crop=face" alt="John Doe">
+                        <div>
+                            <h4>Mr. John Doe</h4>
+                            <span>BUSINESS OWNER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=50&h=50&fit=crop&crop=face" alt="Jane Smith">
+                        <div>
+                            <h4>Ms. Jane Smith</h4>
+                            <span>BUSINESS OWNER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+        <div class="decorative-diamond"></div>
+    </section>-->
+
+    <!-- Sección de Blog -->
+    <!--<section class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Lets Read Our Blog Post Content & Writing Resource</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop" alt="Blog post">
+                        <div class="blog-tags">
+                            <span class="tag">FREELANCER</span>
+                            <span class="tag date">15 AUG</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Tips Recommendation Remote Worker Today</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                        <a href="#" class="blog-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop" alt="Blog post">
+                        <div class="blog-tags">
+                            <span class="tag">DEVELOPMENT</span>
+                            <span class="tag date">20 AUG</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Best Practices for Software Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                        <a href="#" class="blog-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=250&fit=crop" alt="Blog post">
+                        <div class="blog-tags">
+                            <span class="tag">TEAM</span>
+                            <span class="tag date">25 AUG</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Building Effective Development Teams</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                        <a href="#" class="blog-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <img src="./img/toque_blanco.png" alt="Logo fantástico" class="logo-image">
+                    </div>
+                    <p>En Al Toque creamos tu página web profesional de forma rápida y eficiente. Soluciones de diseño y desarrollo web en Argentina para pymes y emprendedores.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#elegirnos">Porque elegirnos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#pricing">Planes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Planes</h4>
+                    <ul>
+                        <li><a href="#starter">Starter</a></li>
+                        <li><a href="#pro">PRO</a></li>
+                        <li><a href="#estarter">e-commerce - Starter</a></li>
+                        <li><a href="#epro">e-commerce - PRO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Telefono <a href="">+54 9 261 6202630</a></h4>
+                    <h4>Dias laborales</h4>
+                    <p>Lunes a viernes 09 AM - 06 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>© 2025 Dithurbide Inmobiliaria. Todos los derechos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+    // Tabs funcionalidad para la sección "specialize-section"
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('.specialize-section .tab-button');
+        const tabPanels = document.querySelectorAll('.specialize-section .tab-panel');
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Quitar clase activa de todos los botones
+                tabButtons.forEach(b => b.classList.remove('active'));
+                // Ocultar todos los paneles
+                tabPanels.forEach(panel => panel.style.display = 'none');
+                // Activar el botón actual
+                this.classList.add('active');
+                // Mostrar el panel correspondiente
+                const tab = this.getAttribute('data-tab');
+                document.getElementById(tab).style.display = 'block';
+            });
+        });
+    });
+    </script>
+</body>
+</html>
+
+
