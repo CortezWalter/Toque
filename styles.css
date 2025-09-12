@@ -1472,7 +1472,7 @@ body {
 
 .footer-column a:hover {
     opacity: 1;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .footer-bottom {
