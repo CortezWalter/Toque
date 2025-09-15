@@ -112,6 +112,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .section-description {
@@ -1516,7 +1517,15 @@ body {
 
 /* ===== DISEÑO RESPONSIVE ===== */
 @media (max-width: 1024px) {
+    * {
+        max-width: 100%;
+    }
+
     .nav-menu {
+        display: none;
+    }
+
+    .nav-buttons .btn-primary {
         display: none;
     }
     
@@ -1528,6 +1537,7 @@ body {
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
+        font-size: 2rem;
     }
     
     .hero-content {
@@ -1537,14 +1547,24 @@ body {
     .hero-title {
         font-size: 2.5rem;
     }
+
+    .hero-description {
+        text-align: center;
+        display: inline-block
+    }
     
-    .hero {
+    /*.hero {
         background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-dark) 60%, #8B7355 60%, #A68B5B 100%);
+    }*/
+
+    .hero-image {
+        display: none;
     }
     
     .section-content {
         grid-template-columns: 1fr;
         gap: 3rem;
+        place-items: center;
     }
     
     .work-closely-grid {
