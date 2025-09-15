@@ -89,6 +89,11 @@ body {
     transition: background-color var(--transition-normal), color var(--transition-normal);
 }
 
+a {
+    text-decoration: none;
+}
+
+
 /* ===== UTILIDADES ===== */
 .container {
     max-width: 1200px;
