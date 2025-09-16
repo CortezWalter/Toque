@@ -1946,6 +1946,38 @@ html {
 /* Ocultar en versión móvil */
 @media (max-width: 768px) {
     .whatsapp-float {
-        display: none;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1000;
+        transition: transform 0.3s ease;
     }
+
+    .whatsapp-float i {
+        font-size: 35px;
+        color: #fff;
+        background-color: #25d366;
+        position: relative;
+        text-align: center;
+        line-height: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+
+    .whatsapp-float .fa-whatsapp {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+    }
+
+    .whatsapp-float:hover .fa-whatsapp {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
 }
