@@ -398,7 +398,7 @@ body {
 .mobile-nav-menu a {
     color: var(--text-light);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: color var(--transition-fast);
 }
@@ -1678,6 +1678,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .mobile-nav-buttons {
+        display: none;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
@@ -1727,6 +1731,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .mobile-nav-buttons {
+        display: none;
+    }
+
     .container {
         padding: 0 15px;
     }
