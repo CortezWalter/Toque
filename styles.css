@@ -609,7 +609,7 @@ body {
 }
 
 .content-right img {
-    width: 700px;
+    max-width: 550px;
     height: auto;
     border-radius: 12px;
     box-shadow: var(--shadow-lg);
@@ -1571,7 +1571,7 @@ body {
 }
 
 /* ===== DISEÑO RESPONSIVE ===== */
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     * {
         max-width: 100%;
     }
