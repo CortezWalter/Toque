@@ -1733,6 +1733,14 @@ body {
 }
 
 @media (max-width: 480px) {
+    .content-right img {
+        max-width: 350px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: var(--shadow-lg);
+        transition: transform var(--transition-fast);
+    }
+
     .mobile-nav-buttons {
         display: none;
     }
