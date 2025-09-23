@@ -1210,6 +1210,7 @@ body {
 .features li {
     display: flex;
     align-items: center;
+    text-align: left !important;
     gap: 1rem;
     margin-bottom: 1rem;
     color: var(--text-secondary);
