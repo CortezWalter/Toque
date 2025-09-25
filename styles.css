@@ -1733,8 +1733,12 @@ body {
 }
 
 @media (max-width: 480px) {
+    * {
+        max-width: 100%;
+    }
+
     .content-right img {
-        max-width: 250px;
+        max-width: 300px;
         height: auto;
         border-radius: 12px;
         box-shadow: var(--shadow-lg);
@@ -1963,6 +1967,18 @@ html {
 
 /* Ocultar en versión móvil */
 @media (max-width: 768px) {
+    * {
+        max-width: 100%;
+    }
+
+    .content-right img {
+        max-width: 350px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: var(--shadow-lg);
+        transition: transform var(--transition-fast);
+    }
+
     .whatsapp-float {
         position: fixed;
         bottom: 30px;
