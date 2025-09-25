@@ -1734,7 +1734,7 @@ body {
 
 @media (max-width: 480px) {
     .content-right img {
-        max-width: 350px;
+        max-width: 250px;
         height: auto;
         border-radius: 12px;
         box-shadow: var(--shadow-lg);
